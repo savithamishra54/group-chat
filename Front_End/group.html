@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Group</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <nav id="snav">
+    <h1 id="header">Lets Chat</h1>
+  </nav>
+  <h2 class="header">Create Group</h2>
+  <body>
+    <form onsubmit="creategroup(event)" id="formgroup">
+      <label class="groupele">Enter Group Name</label>
+      <input type="text" id="groupname" />
+      <button type="submit" class="groupele" id="crtgrpbtn">
+        Create Group
+      </button>
+    </form>
+    <div class="yourgroups">
+      <div>
+        <h3 id="smallheader">Your Groups</h3>
+        <div id="mygroups"></div>
+      </div>
+    </div>
+
+   <div class="chatbox">
+     <h3 id="chatheader">Chat Box</h3>
+      <div id="mygrpchats">
+        <h4 id="memberheader">Group Members</h2>
+      <div id="groupmembers">
+      
+     </div>
+     <div id="groupmembers2">
+
+     </div>
+     <div id="addmems">
+
+     </div>
+     <h4 id="chatheader1">Group Chats</h4>
+     <div id="allchats">
+    
+     </div>
+     <div id="sendmsgform">
+      
+     </div>
+       </div>
+   </div>
+     </body>
+  <footer id="footnav1">
+    <h4>© 2022 Lets Chat | All Rights Reserved</h4>
+  </footer>
+</html>

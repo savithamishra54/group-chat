@@ -1,0 +1,107 @@
+#snav{
+    height:150px;
+    background-color: rgb(28, 119, 81);
+    color: whitesmoke;
+    font-size: 60px;
+    
+}
+
+#signtag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  rgb(28, 119, 81);
+    font-size: 45px;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+#signup{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 3px solid rgb(28, 119, 81); 
+    height: 270px;
+    border-radius: 5px;
+}
+
+.slabel{
+    margin-top: 1rem;
+   }
+
+#signupbtn{
+    background-color:  rgb(28, 119, 81);
+    color: white;
+    margin: 1rem 20%;
+    cursor: pointer;
+}
+
+#signupfooter{
+    height:75px;
+    background-color: rgb(28, 119, 81); 
+    margin-top: 12.5rem;
+    color: white;
+    display: flex;
+    font-size: 20px;
+}
+
+#slogin{
+    text-decoration: none;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    color: rgb(28, 119, 81);
+    margin-right: 16.5%;
+    margin-top: 1rem;
+   
+}
+
+#loginform{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 3px solid rgb(28, 119, 81); 
+    height: 160px;
+    border-radius: 5px;
+    width: 350px;
+}
+
+.loglabel{
+    margin-top: 1rem;
+}
+
+#footnav{
+    height:75px;
+    background-color: rgb(28, 119, 81); 
+    margin-top: 22.5rem;
+    color: white;
+    display: flex;
+    font-size: 20px;
+}
+
+.signanch{
+    text-decoration: none;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    color: rgb(28, 119, 81);
+    margin-right: 15.5%;
+    margin-top: 1rem;
+   
+}
+
+#loginbtn{
+    background-color:  rgb(28, 119, 81);
+    color: white;
+    margin: 1rem 20%;
+    cursor: pointer;
+}

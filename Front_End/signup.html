@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<nav id="snav">
+<h1 id="header">Lets Chat</h1>
+</nav>
+
+<body>
+    <h2 id="signtag">Sign Up</h2>
+    <form id="signup" onsubmit="signup(event)">
+        <label class="slabel">Name:</label>
+        <input type="text" id="name">
+        <label class="slabel">Email Id:</label>
+        <input type="email" id="email">
+        <label class="slabel">Phone Number:</label>
+        <input type="text" id="number">
+        <label class="slabel">Password:</label>
+        <input type="password" id="password">
+        <button class="slabel" id="signupbtn">Sign Up</button>
+    </form>
+    <a href="./login.html" id="slogin">Login</a>
+</body>
+<footer id="signupfooter">
+<h4>© 2022 Lets Chat | All Rights Reserved</h4>
+</footer>
+</html>
